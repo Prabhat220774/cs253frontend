@@ -1,0 +1,107 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+.signup-position {
+    width: auto;
+    height: 105vh;
+    background-color: #d3f5ff; /* Changed background color */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.signup-heading {
+    height: 70px;
+    background: -webkit-linear-gradient(#032110, #96103c);
+    background-clip: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #00ffd5; /* Changed border color */
+    border-radius: 20px;
+}
+
+.signup-box {
+    height: auto;
+    width: 400px;
+    background-color: #687777;
+    padding: 15px;
+    border: 1px solid #a1eeff;
+    margin: 35px auto;
+    border-radius: 22px;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 26px;
+    color: #00d5ff; /* Changed link color */
+}
+
+.btn {
+    height:47px;
+    background: linear-gradient(to right, #d8b5ff, aquamarine, #1eae98); /* Changed button gradient */
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 700px;
+    border-radius: 22px;
+}
+
+.input-field {
+    position: relative;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.btm {
+    color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.btm span {
+    color: #02cbf8; /* Changed span color */
+    cursor: pointer;
+}
+
+.input-field input {
+    width: 350px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 2px solid #efe7e7;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+
+.input-field label {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 19px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    border: 2px solid aquamarine;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: #687777;
+}
