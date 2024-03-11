@@ -1,7 +1,7 @@
 import React from 'react'
 import './prof.css'
 import  abc from './main';
-import bcd from './main';
+// import bcd from './main';
 
 function ProfCard(props){
     return(

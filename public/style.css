@@ -57,9 +57,7 @@ body{
     margin: 5px;
     margin-top: 15px;
     border: 1px solid rgb(143, 143, 224);
-    border-radius: 50%;
-  
- 
+    border-radius: 50%; 
 }
 .details{
       /* background-color: blue; */
