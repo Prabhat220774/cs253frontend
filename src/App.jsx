@@ -11,7 +11,7 @@ import ProjectDesc from "./components/Student/ProjectDesc";
 import Profile from "./pages/Profile";
 import Signup from "./pages/SignUp"; 
 import SignIn from "./components/authentication/SignIn";
-import ProjectCategories from "./pages/ProjectCategories"; 
+import ProjectPage from "./components/Student/ProjectPage";
 import History from './pages/History';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="LogOut" element={<LogOut />} />
           <Route path="Student" element={<Student />} />
-          <Route path="ProjectCategories" element={<ProjectCategories />} /> 
+          <Route path="ProjectPage" element={<ProjectPage/>} /> 
           <Route path="ProjectDesc" element={<ProjectDesc />} />
           <Route path="Profile" element={<Profile/>}/>
           <Route path="History" element={<History />} />
