@@ -1,18 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import './studentcard.css'
+import domain from './domain.js'
+import categories from './domain.js';
 
-function ProjectCategories() {
+function ProjectCategoriesCard(props) {
+   // const [urlCategory, setUrlCategory]=useState(props.image)
     return (
-        <div className="container2" >
-            <h1>Project Categories</h1>
+        <div className="bigcontainer1">
+            <div className="container2" >
             <div className="category-box">
-                <div className="category1">
-                    
-                    <h2>Artificial<br></br>Intelligence</h2>
+                <div className='categoryURL' style={{backgroundImage:`url(${props.bimage})`}} >
+                    <h2>{props.domain}</h2>
                     <Link to="/ProjectPage"><button>Explore </button></Link>
                 </div>
-                <div className="category2">
+                {/* <div className="category2">
                     <h2>Machine<br></br>Learning</h2>
                     <Link to="/ProjectPage"><button>Explore</button></Link>
                 </div>
@@ -55,11 +57,31 @@ function ProjectCategories() {
                 <div className="category12">
                     <h2>Federated<br></br>Learning</h2>
                     <Link to="/ProjectPage"><button>Explore </button></Link>
-                </div>
+                </div> */}
                 {/* Add more category boxes as needed */}
             </div>
         </div>
+        </div>
+        
     );
+}
+
+function ProjectCategories(){
+    return(
+        <div className='bigcontainer'>
+            <h1>Project Categories</h1>
+            {
+                domain.map((item)=>{
+                    return(
+                        <ProjectCategoriesCard
+                         domain={item.domain}
+                         bimage={item.image}
+                        />
+                    )
+                })
+            }
+        </div>
+    )
 }
 
 export default ProjectCategories;

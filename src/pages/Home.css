@@ -10,27 +10,30 @@
 }
 
 .display-4 {
-  margin:40px -10px;
+  margin:40px 380px;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #054f1a; 
+  color: #20c28f; 
 }
 
 .lead {
-  font-size: 1.6rem;
+  margin: 30px 320px;
+  font-size: 1.9rem;
   font-weight: 300;
-  color: #041550; 
+  color: #c9135c; 
 }
-.message{
-  font-size: 1.1rem;
+/* .message{
+  margin: 5px 300px;
+  font-size: 1.2rem;
   font-weight: 150;
-  color: #121111;
+  color: #5b78cf;
 }
 .message1{
+  margin: 10px 370px;
   font-size: 1.1rem;
   font-weight: 150;
-  color: #121111;
-}
+  color: #5b78cf;
+} */
 
 @media (max-width: 768px) {
   .col-md-4 {

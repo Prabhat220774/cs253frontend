@@ -33,7 +33,7 @@ function Prof() {
   return (
     <div className='faculty-page'>
         {
-            abc.map((item) => {
+            (abc.CseProfData).map((item) => {
               return (
                <ProfCard 
                name = {item.name} 

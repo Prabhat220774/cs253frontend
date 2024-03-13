@@ -2,8 +2,9 @@ const ProjectDetails=[
     {
         id:1,
         email:"prof@isClickableInput.ac.in",
-        maxStudents:50,
-        studentRegistered:67,
+        name:"Indranil Saha",
+        maxStudents:67,
+        studentRegistered:50,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefa",
         title:"web-develpepment",
         resume:false,
@@ -13,6 +14,7 @@ const ProjectDetails=[
     {
         id:2,
         email:"prof@isClickableInput.ac.in",
+        name:"Manoj K Harbola",
         maxStudents:50,
         studentRegistered:67,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefa",
@@ -24,6 +26,7 @@ const ProjectDetails=[
     {
         id:3,
         email:"prof@isClickableInput.ac.in",
+        name:"Anil Seth",
         maxStudents:50,
         studentRegistered:67,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefa",
@@ -35,6 +38,7 @@ const ProjectDetails=[
     {
         id:4,
         email:"prof@isClickableInput.ac.in",
+        name:"Subhajit Roy",
         maxStudents:50,
         studentRegistered:67,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefa",
@@ -46,6 +50,7 @@ const ProjectDetails=[
     {
         id:5,
         email:"prof@isClickableInput.ac.in",
+        name:"Mainak Choudhary",
         maxStudents:80,
         studentRegistered:45,
         description:"nothing just 20+ years experience",
@@ -57,7 +62,8 @@ const ProjectDetails=[
     {
         id:6,
         email:"prof@isClickableInput.ac.in",
-        maxStudents:1000000,
+        name:"Ashish Garg",
+        maxStudents:1000,
         studentRegistered:0,
         description:"nothing just 20+ years experience",
         title:"economics",
@@ -68,6 +74,7 @@ const ProjectDetails=[
     {
         id:7,
         email:"prof@isClickableInput.ac.in",
+        name:"Purushottam Kar",
         maxStudents:80,
         studentRegistered:63,
         description:"nothing just 20+ years experience",

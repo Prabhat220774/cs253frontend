@@ -1155,7 +1155,7 @@ for (let prof of profData) {
   }
 //   console.log(CsePorfData);
 
-export default CseProfData;
+export default {CseProfData,CivilProfData};
 //export default CivilProfData;
 
 // console.log(civilProfData.length);

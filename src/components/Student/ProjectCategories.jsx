@@ -8,7 +8,7 @@ function Projectcard(props){
         <div className="out-box">
         <div className='prof-box'>
           <div className="profimage">
-            <img className="prof-pic" src={props.image} alt="" />
+            {/* <img className="prof-pic" src={props.image} alt="" /> */}
             <div className="prof-email"><h2>{props.email}</h2></div>
             </div>
             <div className="project-details">
@@ -29,16 +29,16 @@ function ProjectCategory() {
       <div className='projectarrange'>
           {
               ProjectDetails.map((item) => {
-                return (
+       if(item.studentRegistered<item.maxStudents) {  return (
                  <Projectcard 
                   title = {item.title} 
                   email = {item.email}
                   description ={item.description}
                   image = {item.image}
-                  studentsRegistered={item.studentsRegistered}
+                  studentsRegistered={item.studentRegistered}
                   maxStudents={item.maxStudents}
                  />
-                )
+                )}
               })
           }
       
