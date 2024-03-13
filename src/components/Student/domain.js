@@ -23,6 +23,31 @@ const categories = [
         id: 5,
         domain: "Signal Processing",
         image: 'https://venturebeat.com/wp-content/uploads/2018/05/ai-machine_learning-shutterstock_671158525.jpg'
+    },
+    {
+        id: 5,
+        domain: "Signal Processing",
+        image: 'https://venturebeat.com/wp-content/uploads/2018/05/ai-machine_learning-shutterstock_671158525.jpg'
+    },
+    {
+        id: 5,
+        domain: "Signal Processing",
+        image: 'https://venturebeat.com/wp-content/uploads/2018/05/ai-machine_learning-shutterstock_671158525.jpg'
+    },
+    {
+        id: 5,
+        domain: "Signal Processing",
+        image: 'https://venturebeat.com/wp-content/uploads/2018/05/ai-machine_learning-shutterstock_671158525.jpg'
+    },
+    {
+        id: 5,
+        domain: "Signal Processing",
+        image: 'https://venturebeat.com/wp-content/uploads/2018/05/ai-machine_learning-shutterstock_671158525.jpg'
+    },
+    {
+        id: 5,
+        domain: "Signal Processing",
+        image: 'https://venturebeat.com/wp-content/uploads/2018/05/ai-machine_learning-shutterstock_671158525.jpg'
     }
 ];
 

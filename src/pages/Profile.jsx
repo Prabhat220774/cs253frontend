@@ -40,32 +40,9 @@ function ProfileCard(user) {
                                         <th>Project Name</th>
                                         <th>Accepted/Rejected</th>
                                         <th>Professor Name</th>
-                                        <th>Details</th>
+                                        {/* <th>Details</th> */}
                                     </tr>
                                 </thead>
-                                {/* <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>Project A</td>
-                                        <td>Accepted</td>
-                                        <td>Prof. X</td>
-                                        <td><button onClick={() => handleDetailsClick()}>Details</button></td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>Project B</td>
-                                        <td>Rejected</td>
-                                        <td>Prof. Y</td>
-                                        <td><button onClick={() => handleDetailsClick()}>Details</button></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Project C</td>
-                                        <td>Accepted</td>
-                                        <td>Prof. Z</td>
-                                        <td><button onClick={() => handleDetailsClick()}>Details</button></td>
-                                    </tr>
-                                </tbody> */}
                             </table>
                         </div>
                     </div>
@@ -88,32 +65,10 @@ function ProfileCard1(project) {
                     <img src={user.image} alt="student pic" className="profile-img" />
                 </div> */}
                 <div className="col-md-9">
-                    <div className="profile-info">
-                        {/* <div className="profile-info-item">
-                            <h3>Name: {user.name}</h3>
-                        </div>
-                        <div className="profile-info-item">
-                            <h3>Roll No: {user.rollno}</h3>
-                        </div>
-                        <div className="profile-info-item">
-                            <h3>Email Id: {user.email}</h3>
-                        </div>
-                        <div className="profile-info-item">
-                            <h3>Department: {user.branch}</h3>
-                        </div> */}
-                        
+                    <div className="profile-info">                        
                         <div className="table-container">
                             <h2></h2>
                             <table>
-                                {/* <thead>
-                                    <tr>
-                                        <th>Serial Number</th>
-                                        <th>Project Name</th>
-                                        <th>Accepted/Rejected</th>
-                                        <th>Professor Name</th>
-                                        <th>Details</th>
-                                    </tr>
-                                </thead> */}
                                 <tbody>
                                     {/* Sample table data */}
                                     <tr>
@@ -121,23 +76,8 @@ function ProfileCard1(project) {
                                         <td>{project.name}</td>
                                         <td>{project.status}</td>
                                         <td>{project.prof}</td>
-                                        <td><button onClick={() => handleDetailsClick()}>Details</button></td>
+                                        {/* <td><button onClick={() => handleDetailsClick()}>Details</button></td> */}
                                     </tr>
-                                    {/* <tr>
-                                        <td>2</td>
-                                        <td>Project B</td>
-                                        <td>Rejected</td>
-                                        <td>Prof. Y</td>
-                                        <td><button onClick={() => handleDetailsClick()}>Details</button></td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Project C</td>
-                                        <td>Accepted</td>
-                                        <td>Prof. Z</td>
-                                        <td><button onClick={() => handleDetailsClick()}>Details</button></td>
-                                    </tr> */}
-                                    {/* Add more rows as needed */}
                                 </tbody>
                             </table>
                         </div>

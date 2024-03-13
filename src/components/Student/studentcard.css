@@ -1,20 +1,27 @@
 .bigcontainer {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-left: 50px;
-    
-   
-    
+    /* margin-left: 50px;   */
+    background-image: url('studentpage.jpg'); /* Add this line */
+    background-size: cover; /* Optional: Adjust background size */ 
 }
 .container2 {
     max-width: 1500px;
-    margin: 0 auto;
+    margin: 25px ;
     padding: 50px;
-    background-color: #e5d7d7;
+    background-color: #7cd5d7;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width:210px;
+    max-height:160px; 
+    transition: border-width 0.3s, transform 0.3s; 
     
+}
+.container2:focus{
+   border-color:brown;
+   border-width: 20px;
 }
 
 .container2 h1 {
@@ -27,76 +34,43 @@
 .category-box {
     display: flex;
     flex-wrap: wrap;
-    justify-content: centre;
+    justify-content: center;
+    max-width:190px;
+    max-height:145px;
+    margin:-25px;
+    overflow:hidden;
+    transition: border-width 0.3s, transform 0.3s;
 }
-.category-box h2{
+.categoryURL{
+    min-width: 190px;
+    min-height: 145px; 
+}
+/* .category-box:focus-within {
+    border-width: 10px; /* Increase border width on focus */
+    /* transform: translateY(-5px); Move element vertically on focus */
+    /* border-color:rgb(151, 7, 7);  */
+
+.category-box h3{
     color: #e5d7d7;
 }
-.category1, .category2,.category3,.category4,.category5,.category6,.category7,.category8,.category9,
-.category10,.category11,.category12{
-    width: 300px;
-    margin: 10px; 
-    padding: 10px;
-  
-     background-color: #b9d5bf; 
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-.category1{
-     background-image: url('https://venturebeat.com/wp-content/uploads/2018/05/ai-machine_learning-shutterstock_671158525.jpg');
-}
-.category2{
-    background-image: url('https://th.bing.com/th/id/OIP.u1LY35FRcTfmIpp7X-UkiAHaE7?rs=1&pid=ImgDetMain');
-}
-.category3{
-    background-image: url('https://www.danielhonrade.com/wp-content/uploads/2020/09/Web-development-1.jpg');
-}
-.category4{
-    background-image: url('https://i.pinimg.com/originals/ee/7e/db/ee7edb6db690d1861ae8c8f3bcab4261.jpg');
-}
-.category5{
-    background-image: url('https://thumbs.dreamstime.com/b/network-social-online-background-d-illustration-rendering-machine-deep-learning-data-cloud-storage-digital-science-neuron-plexus-173957397.jpg');
-}
-.category6{
-    background-image: url('https://th.bing.com/th/id/OIP.Vpu8G7gBxsh1liszobCWiQAAAA?w=370&h=305&rs=1&pid=ImgDetMain');
-}
-.category7{
-    background-image: url('https://www.inovex.de/wp-content/uploads/2020/10/federated-learning-frameworks-1500x880.png');
-}
-.category8{
-    background-image: url('https://www.inovex.de/wp-content/uploads/2020/10/federated-learning-frameworks-1500x880.png');
-}
-.category9{
-    background-image: url('https://www.inovex.de/wp-content/uploads/2020/10/federated-learning-frameworks-1500x880.png');
-}
-.category10{
-    background-image: url('https://www.inovex.de/wp-content/uploads/2020/10/federated-learning-frameworks-1500x880.png');
-}
-.category11{
-    background-image: url('https://www.inovex.de/wp-content/uploads/2020/10/federated-learning-frameworks-1500x880.png');
-}
-.category12{
-    background-image: url('https://www.inovex.de/wp-content/uploads/2020/10/federated-learning-frameworks-1500x880.png');
-}
-
-.category h2 {
+.category h3 {
     margin-bottom: 10px;
     color: #e8dada;
 }
 
 button {
     padding: 8px 16px;
-    background-color: #0975e9;
-    color: #fff;
+    background-color: #1997e5;
+    color: #b02323;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s;
     display: block;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 button:hover {
-    background-color: #d492e5d9;
+    background-color:rgb(196, 77, 13);
 }
