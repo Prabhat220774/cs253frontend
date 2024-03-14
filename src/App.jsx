@@ -31,6 +31,7 @@ function App() {
           <Route path="SignUp" element={<Signup />} />
           <Route path="Faculty" element={<Faculty />} />
           <Route path="About" element={<About />} />
+          
       
           
           

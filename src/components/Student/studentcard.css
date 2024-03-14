@@ -1,28 +1,36 @@
+*{
+    box-sizing:content-box;
+}
 .bigcontainer {
     
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    height:690px;
     /* margin-left: 50px;   */
     background-image: url('studentpage.jpg'); /* Add this line */
     background-size: cover; /* Optional: Adjust background size */ 
 }
 .container2 {
-    max-width: 1500px;
+    /* max-width: 1500px; */
     margin: 25px ;
-    padding: 50px;
-    background-color: #7cd5d7;
+    padding: 30px;
+    background-color: #7c4f7e;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width:210px;
+    max-width:195px;
     max-height:160px; 
-    transition: border-width 0.3s, transform 0.3s; 
-    
+    transition: border-width 0.3s transform 0.4s padding 2s;     
 }
-.container2:focus{
-   border-color:brown;
+.container2:hover{
+   background:  -webkit-linear-gradient(#03e6ff, #eb0aab);
+   padding:31px;
+   transition: padding 0.5s; 
+}
+ /* .container2:focus{
+   background-color: #b81111;
    border-width: 20px;
-}
+}  */
 
 .container2 h1 {
     text-align: center;
@@ -44,6 +52,7 @@
 .categoryURL{
     min-width: 190px;
     min-height: 145px; 
+    transition: border-width 0.3s, transform 0.3s;
 }
 /* .category-box:focus-within {
     border-width: 10px; /* Increase border width on focus */
@@ -58,19 +67,19 @@
     color: #e8dada;
 }
 
-button {
-    padding: 8px 16px;
-    background-color: #1997e5;
-    color: #b02323;
-    border: none;
-    border-radius: 6px;
+.Explore {
+    padding: 6px 10px;
+    background:-webkit-linear-gradient(#080808,#eb719e);
+    color: #e8e1e1;
+    border-color: aqua;
+    border-radius: 25px;
     cursor: pointer;
-    transition: background-color 0.3s;
-    display: block;
-    margin: 0 auto;
-    font-size: 20px;
-}
-
-button:hover {
-    background-color:rgb(196, 77, 13);
-}
+    margin: 40px 70px;
+    transition: 0.3s;
+    
+  }
+  
+  .Explore:hover {
+    background:-webkit-linear-gradient(#eca6d2,#dd86b1);
+    
+  }

@@ -12,7 +12,7 @@ function ProjectCategoriesCard(props) {
             <div className="category-box">
                 <div className='categoryURL' style={{backgroundImage:`url(${props.bimage})`}} >
                     <h3>{props.domain}</h3>
-                    <Link to="/ProjectPage"><button>Explore </button></Link>
+                    <Link to="/ProjectPage"><button className='Explore'>Explore </button></Link>
                 </div>
             </div>
         </div>
@@ -24,7 +24,7 @@ function ProjectCategoriesCard(props) {
 function ProjectCategories(){
     return(
         <div className='bigcontainer'>
-            <h1>Project Categories</h1>
+            {/* <h1>Project Categories</h1> */}
             
             {
                 domain.map((item)=>{

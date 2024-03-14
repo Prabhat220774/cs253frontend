@@ -38,6 +38,18 @@
   color: #5b78cf;
 } */
 
+.explore-project{
+  background:-webkit-linear-gradient(#b2bb62,#eb9071);
+ color:#111303;
+ margin: -10px 90px;
+ font-size: 1.3rem;
+ font-weight: 550;
+}
+
+.explore-project:hover{
+  background:-webkit-linear-gradient(#3c3318,#d75838);
+}
+
 @media (max-width: 768px) {
   .col-md-4 {
     text-align: center;
