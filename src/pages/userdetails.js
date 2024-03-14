@@ -24,10 +24,16 @@ const Projects=[
         prof: "Purushottam"
     },
     {
-        id:1,
+        id:3,
         name: "Communication",
         status: "Accepted",
         prof: "Mainak"
+    },
+    {
+        id:4,
+        name: "Quantum",
+        status: "Pending",
+        prof: "Harbola"
     },
 ]
 export default {UserDetails,Projects};

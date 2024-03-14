@@ -59,12 +59,12 @@ function ProfileCard1(project) {
         navigate('/ProjectDesc');
     };
     return (
-        <div className="container9">
-            <div className="row">
+        <div className="container8">
+            <div className="row8">
                 {/* <div className="col-md-3">
                     <img src={user.image} alt="student pic" className="profile-img" />
                 </div> */}
-                <div className="col-md-9">
+                <div className="col-md-98">
                     <div className="profile-info">                        
                         <div className="table-container">
                             <h2></h2>

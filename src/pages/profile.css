@@ -1,7 +1,10 @@
 .container9 {
-  margin-top: 50px;
+  margin-top: 50px ;
 }
-
+.container8{
+  margin: 0px 372px;
+  width:1117px;
+}
 .row {
   display: flex;
 }
@@ -25,7 +28,7 @@
 
 .profile-info {
   padding: 30px;
-  background-color: #d5e4d7;
+  background-color: #b3d4b7;
   border-radius: 10px;
 }
 
@@ -69,7 +72,7 @@ button:hover {
 
 
 .table-container {
-  margin-top: 20px;
+  margin-top: 0px;
   
 }
 

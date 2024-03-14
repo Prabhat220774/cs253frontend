@@ -4,23 +4,26 @@
   background-color: #96c6a2; 
   padding: 20px; 
   border-radius: 10px; 
-  background-image: url('niceimg.jpg');
+  background-image: url('Background\ project.png');
   background-size: cover;
   background-repeat: no-repeat ;
 }
 
 .display-4 {
   margin:40px 380px;
+  text-align: center;
   font-size: 2.5rem;
   font-weight: bold;
-  color: #20c28f; 
+  color: #cbdf6b; 
 }
 
 .lead {
-  margin: 30px 320px;
+  margin: 150px 320px;
   font-size: 1.9rem;
+  text-align: left;
+  font-size: 32px;
   font-weight: 300;
-  color: #c9135c; 
+  color: rgb(213, 154, 105); 
 }
 /* .message{
   margin: 5px 300px;
