@@ -6,6 +6,7 @@ const ProjectDetails=[
         cpi:"7.5",
         maxStudents:67,
         studentRegistered:50,
+        isRequest:false,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefalndonojnskNDdnKNkNJCmanskajcojnckan ckNCOJnC J ask cs",
         title:"web-develpepment",
         resume:false,
@@ -20,6 +21,7 @@ const ProjectDetails=[
         cpi:"Not-Required",
         maxStudents:50,
         studentRegistered:67,
+        isRequest:false,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefa",
         title:"nothing",
         resume:true,
@@ -34,6 +36,7 @@ const ProjectDetails=[
         cpi:"8.0",
         maxStudents:50,
         studentRegistered:67,
+        isRequest:false,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefa",
         title:"machine learning",
         resume:false,
@@ -48,6 +51,7 @@ const ProjectDetails=[
         cpi:"6.0",
         maxStudents:50,
         studentRegistered:67,
+        isRequest:false,
         description:"erubibdiubgdiubg rfifibfiwn infiebfiw iwfeibfefa",
         title:"economics",
         resume:true,
@@ -62,6 +66,7 @@ const ProjectDetails=[
         cpi:"7.0",
         maxStudents:80,
         studentRegistered:45,
+        isRequest:false,
         description:"nothing just 20+ years experience",
         title:"economics",
         resume:true,
@@ -76,9 +81,10 @@ const ProjectDetails=[
         cpi:"Not-Required",
         maxStudents:1000,
         studentRegistered:0,
+        isRequest:false,
         description:"nothing just 20+ years experience",
         title:"economics",
-        resume:false,
+        resume:true,
         isResume:"NO",
         image:"public/images/nasar.jpg",
         Openfor:"no cse allowed"
@@ -90,6 +96,7 @@ const ProjectDetails=[
         cpi:"Not-required",
         maxStudents:80,
         studentRegistered:63,
+        isRequest:false,
         description:"nothing just 20+ years experience",
         title:"economics",
         resume:true,
@@ -99,5 +106,13 @@ const ProjectDetails=[
     },
     
 ]
+ProjectDetails.forEach(project => {
+    if (project.maxStudents > project.studentRegistered) {
+        project.isRequest = true;
+    } else {
+        project.isRequest = false;
+    }
+});
+
 export default ProjectDetails;
 //once the studentsRegistered== maxstudents, the object should get deleted in the user details.

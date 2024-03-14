@@ -16,7 +16,7 @@ function NavBar() {
                     <li><NavLink className={`a ${location.pathname === '/Logout' && 'active'}`} to="/Logout">Logout</NavLink></li>
                     {/* <li><NavLink className={`a ${location.pathname === '/History' && 'active'}`} to="/History">Project History</NavLink></li> */}
                     <li><NavLink className={`a ${location.pathname === '/Profile' && 'active'}`} to="/Profile">My Profile</NavLink></li>
-                    <li><NavLink className={`a ${location.pathname === '/Login' && 'active'}`} to="/Login">Log in</NavLink></li>
+                    {/* <li><NavLink className={`a ${location.pathname === '/Login' && 'active'}`} to="/Login">Log in</NavLink></li> */}
                     <li><NavLink className={`a ${location.pathname === '/Faculty' && 'active'}`} to="/Faculty">Faculty</NavLink></li>
                     <li><NavLink className={`a ${location.pathname === '/About' && 'active'}`} to="/About">About Us</NavLink></li>
                     <li><NavLink className={`a ${location.pathname === '/Student' && 'active'}`} to="/Student">Projects</NavLink></li>

@@ -8,6 +8,7 @@ function TotalProjects(props) {
   function expand() {
     const projectDiv = document.getElementById(`project-${props.index}`);
     const button = document.getElementById(`expand-button-${props.index}`);
+
     if (projectDiv.style.height == "370px") {
       button.innerText = "Show More";
       projectDiv.style.height = "200px";
@@ -16,6 +17,7 @@ function TotalProjects(props) {
       projectDiv.style.height = "370px";
     }
   }
+  const check= props.studentRegistered<props.maxStudents;
 
   return (
     <div id={`project-${props.index}`} className="each-project">
@@ -98,8 +100,9 @@ function TotalProjects(props) {
           <button>Delete</button>
          </div> */}
       </div>
+      {props.isRequest ? (
       <div><Link to="/ProjectDesc"><button>Request</button></Link></div>
-
+      ) : ("")}
     </div>
   );
 }
@@ -115,7 +118,7 @@ function Home() {
         </div>
 
         {ProjectDetails.map((item, index) => {
-          if (item.studentRegistered < item.maxStudents)
+          //if (item.studentRegistered < item.maxStudents)
             return (
               <TotalProjects
                 key={index} //
@@ -132,6 +135,7 @@ function Home() {
                 students={item.studentRegistered}
                 total={item.maxStudents}
                 isResume={item.isResume}
+                isRequest={item.isRequest}
               />
             );
         })}

@@ -1,12 +1,19 @@
+
 .container9 {
   margin-top: 50px ;
+  /* background-color: #b3d4b7; */
 }
 .container8{
   margin: 0px 372px;
-  width:1117px;
+  width:1005px;
+  background-color: #b3d4b7;
 }
 .row {
   display: flex;
+  flex-direction:row-reverse;
+  background-color:#b3d4b7 ;
+  margin: 0px 111px 0px 372px;
+  justify-content: space-between;
 }
 
 .col-md-3 {
@@ -15,22 +22,29 @@
 }
 
 .col-md-9 {
-  flex: 0 0 75%; 
-  max-width: 75%;
-}
-
-.profile-img {
-  max-width: 200px;
-  border-radius: 200px;
-  margin: 10px 50px; 
-  height: auto;
-}
+  flex: 0 0 55%; 
+  max-width:75%;
+  /* padding-left: 25rem; */
+} 
 
 .profile-info {
+  z-index: 0;
   padding: 30px;
   background-color: #b3d4b7;
   border-radius: 0px;
+  /* background-color: transparent; */
 }
+
+.row .col-md-3 .profile-img {
+  max-width: 200px;
+  border-radius: 200px;
+  margin: 10px -238px; /* Center the image horizontally */
+  display: block; /* Ensure the image behaves as a block element */
+  height: auto;
+ /* position: relative; /* Ensure proper positioning */
+  z-index: 1; /* Ensure the image is above other elements */
+}
+
 
 .profile-info-item {
   margin-bottom: 20px;
@@ -73,6 +87,7 @@ button:hover {
 
 .table-container {
   margin-top: 0px;
+  width:56rem;
   
 }
 

@@ -7,9 +7,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
     height:690px;
-    /* margin-left: 50px;   */
-    background-image: url('studentpage.jpg'); /* Add this line */
-    background-size: cover; /* Optional: Adjust background size */ 
+    /* background-image: url('studentpage.jpg');  */
+    background-size: cover; 
 }
 .container2 {
     /* max-width: 1500px; */
