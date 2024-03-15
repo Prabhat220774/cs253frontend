@@ -25,7 +25,7 @@
     transition: border-width 0.3s transform 0.4s padding 2s;     
 }
 .container2:hover{
-   background:  -webkit-linear-gradient(#7b8586, #d4c2cf);
+   background:  -webkit-linear-gradient(#2bc7d5, #b676a4);
    padding:31px;
    transition: padding 0.5s; 
 }
