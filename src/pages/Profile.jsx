@@ -36,9 +36,9 @@ function ProfileCard(user) {
                             <table>
                                 <thead>
                                     <tr>
-                                        <th>Serial Number</th>
-                                        <th>Project Name</th>
-                                        <th>Accepted/Rejected</th>
+                                        <th className='tableid'>Sr.No.</th>
+                                        <th className='tableproject'>Project Name</th>
+                                        <th className='tablestatus'>Accepted/Rejected</th>
                                         <th>Professor Name</th>
                                         {/* <th>Details</th> */}
                                     </tr>
@@ -65,16 +65,16 @@ function ProfileCard1(project) {
                     <img src={user.image} alt="student pic" className="profile-img" />
                 </div> */}
                 <div className="col-md-98">
-                    <div className="profile-info">                        
-                        <div className="table-container">
+                    <div className="profile-info1">                        
+                        <div className="table-container1">
                             <h2></h2>
                             <table>
                                 <tbody>
                                     {/* Sample table data */}
                                     <tr>
-                                        <td>{project.id}</td>
-                                        <td>{project.name}</td>
-                                        <td>{project.status}</td>
+                                        <td className='tableid'>{project.id}</td>
+                                        <td className='tableproject'>{project.name}</td>
+                                        <td className='tablestatus'>{project.status}</td>
                                         <td>{project.prof}</td>
                                         {/* <td><button onClick={() => handleDetailsClick()}>Details</button></td> */}
                                     </tr>
