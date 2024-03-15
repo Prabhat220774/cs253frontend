@@ -11,7 +11,7 @@ function ProjectCategoriesCard(props) {
             <div className="container2" >
             <div className="category-box">
                 <div className='categoryURL' style={{backgroundImage:`url(${props.bimage})`}} >
-                    <h3>{props.domain}</h3>
+                    <h2>{props.domain}</h2>
                     <Link to="/ProjectPage"><button className='Explore'>Explore </button></Link>
                 </div>
             </div>
